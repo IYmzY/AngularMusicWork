@@ -1,0 +1,38 @@
+.container {
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.subContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95vw;
+  height: 98vh;
+}
+
+.titleHeader {
+  padding-top: 7vh;
+  font-size: 15vh;
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  color: #6e51ac;
+}
+.listContainer {
+  width: 60vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.formContainer {
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
