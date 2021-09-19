@@ -9,3 +9,9 @@ mat-card-title {
   font-size: 2vw;
   padding-bottom: 2vh;
 }
+mat-label {
+  color: #6e51ac;
+}
+input {
+  color: #6e51ac;
+}

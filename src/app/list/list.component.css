@@ -5,5 +5,7 @@ p {
   align-items: center;
 }
 mat-card-title {
-  color: #00a1e4;
+  color: #6e51ac;
+  font-size: 2vw;
+  padding-bottom: 2vh;
 }

@@ -10,7 +10,6 @@
 .subContainer {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   width: 95vw;
   height: 98vh;
 }
@@ -24,7 +23,7 @@
   color: #6e51ac;
 }
 .listContainer {
-  width: 60vw;
+  width: 55vw;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -35,4 +34,5 @@
   height: 30vh;
   display: flex;
   justify-content: center;
+  overflow: scroll;
 }

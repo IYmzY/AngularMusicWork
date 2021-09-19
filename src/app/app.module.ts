@@ -7,6 +7,10 @@ import { FormComponent } from './form/form.component';
 import { ListComponent } from './list/list.component';
 import { MatInputModule } from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatListModule} from '@angular/material/list';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 
 
@@ -18,10 +22,13 @@ import {MatFormFieldModule} from '@angular/material/form-field';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
+    MatListModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
